@@ -9,3 +9,4 @@ name: example-v1
 sources:
   - https://github.com/helm/helm
 version: 0.1.12
+
