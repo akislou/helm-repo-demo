@@ -25,5 +25,3 @@ spec:
   - name: waiterimage
     image: "alpine:{{ .Chart.AppVersion }}"
     command: ["/bin/sleep","9000"]
-
-    
