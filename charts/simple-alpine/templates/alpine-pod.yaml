@@ -22,6 +22,6 @@ spec:
   # more conventional syntax: {{.restartPolicy | default "Never"}}
   restartPolicy: {{default "Never" .Values.restartPolicy}}
   containers:
-  - name: waiterimage
+  - name: waiter
     image: "alpine:{{ .Chart.AppVersion }}"
     command: ["/bin/sleep","9000"]
