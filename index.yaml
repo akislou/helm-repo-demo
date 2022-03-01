@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  alpine-pod:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2022-03-01T09:31:48.657018848Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: e5c35bcc782a693d567c812755377435b092ead776737a4009b2508962f9a76f
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: alpine-pod
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/akislou/helm-repo-demo/releases/download/alpine-pod-0.1.13/alpine-pod-0.1.13.tgz
+    version: 0.1.13
   example-v1:
   - apiVersion: v1
     appVersion: "3.9"
