@@ -8,4 +8,4 @@ maintainers:
 name: alpine-pod
 sources:
   - https://github.com/helm/helm
-version: 0.1.13
+version: 0.1.14
